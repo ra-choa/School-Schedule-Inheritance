@@ -28,6 +28,7 @@ def test_new_valid_middle_school_student_with_defaults():
     assert ellis.grade == grade
     assert ellis.classes == classes
     assert len(ellis.classes) == 1
+    assert "Painting" in ellis.classes
     assert ellis.gets_transportation == False
 
 
