@@ -25,4 +25,4 @@ class MiddleSchoolStudent(Student):
         student_summary = super().summary()
         gets_transportion_message = self.display_transportation_message()
         
-        return "\n".join(student_summary, gets_transportion_message)
+        return "\n".join((student_summary, gets_transportion_message))
